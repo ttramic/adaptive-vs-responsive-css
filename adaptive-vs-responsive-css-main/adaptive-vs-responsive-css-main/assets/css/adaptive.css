@@ -1,0 +1,75 @@
+html {
+  font-family: inter;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header, main, footer {
+  margin: 1rem;
+}
+
+nav ul li, a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  
+  transition: 400ms;
+}
+
+ul li a:hover {
+  background-color:black;
+  color: white;
+  padding: 0.3rem;
+}
+
+h1 {
+  font-size: 4rem;
+  transition: 400ms;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 2.5rem;
+  transition: 400ms;
+  font-weight: 500;
+}
+
+p {
+  transition: 400ms;
+}
+
+
+/* media */
+/* Tablet */
+@media (max-width: 800px) {
+  header h1 {
+    font-size: 3rem;
+  }
+
+  main h2 {
+    font-size: 2rem;
+  }
+}
+/* Tablet */
+
+/* MObile */
+@media (max-width: 525px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  main h2 {
+    font-size: 1.5rem;
+  }
+
+  main p {
+    font-size: 0.9rem;
+  }
+}
+/* MObile */
+
+
+/* media */
